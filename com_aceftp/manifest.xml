@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>AceFTP</name>
+	<author>JoomAce LLC</author>
+	<creationDate>October 2012</creationDate>
+	<authorEmail>info@joomace.net</authorEmail>
+	<authorUrl>http://www.joomace.net</authorUrl>
+	<copyright>Copyright (C) JoomAce LLC, www.joomace.net</copyright>
+	<license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>2.1.0</version>
+	<description>AceFTP is a smart, fast and lightweight file manager component. It operates from Joomla back-end so you don't have to use any FTP program anymore.</description>
+	<administration>
+		<menu img="components/com_aceftp/assets/images/icon-16-aceftp.png">AceFTP</menu>
+		<files>
+			<filename>aceftp.php</filename>
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>access.xml</filename>
+			<folder>assets</folder>
+			<folder>quixplorer</folder>
+		</files>
+		<languages>
+			<language tag="en-GB">languages/en-GB.com_aceftp.ini</language>
+			<language tag="en-GB">languages/en-GB.com_aceftp.sys.ini</language>
+			<language tag="en-GB">languages/en-GB.com_aceftp.menu.ini</language>
+		</languages>
+	</administration>
+	
+	<installfile>install.aceftp.php</installfile>
+</install>
